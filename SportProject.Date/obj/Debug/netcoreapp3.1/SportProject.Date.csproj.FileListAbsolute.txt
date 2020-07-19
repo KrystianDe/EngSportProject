@@ -1,0 +1,14 @@
+C:\Users\Krystian Dębek\source\repos\SportProject\SportProject.Date\bin\Debug\netcoreapp3.1\SportProject.Date.deps.json
+C:\Users\Krystian Dębek\source\repos\SportProject\SportProject.Date\bin\Debug\netcoreapp3.1\SportProject.Date.dll
+C:\Users\Krystian Dębek\source\repos\SportProject\SportProject.Date\obj\Debug\netcoreapp3.1\SportProject.Date.csprojAssemblyReference.cache
+C:\Users\Krystian Dębek\source\repos\SportProject\SportProject.Date\obj\Debug\netcoreapp3.1\SportProject.Date.AssemblyInfoInputs.cache
+C:\Users\Krystian Dębek\source\repos\SportProject\SportProject.Date\obj\Debug\netcoreapp3.1\SportProject.Date.AssemblyInfo.cs
+C:\Users\Krystian Dębek\source\repos\SportProject\SportProject.Date\bin\Debug\netcoreapp3.1\SportProject.Date.pdb
+C:\Users\Krystian Dębek\source\repos\SportProject\SportProject.Date\bin\Debug\netcoreapp3.1\SportProject.Core.dll
+C:\Users\Krystian Dębek\source\repos\SportProject\SportProject.Date\bin\Debug\netcoreapp3.1\SportProject.Core.pdb
+C:\Users\Krystian Dębek\source\repos\SportProject\SportProject.Date\obj\Debug\netcoreapp3.1\SportProject.Date.csproj.CopyComplete
+C:\Users\Krystian Dębek\source\repos\SportProject\SportProject.Date\obj\Debug\netcoreapp3.1\SportProject.Date.dll
+C:\Users\Krystian Dębek\source\repos\SportProject\SportProject.Date\obj\Debug\netcoreapp3.1\SportProject.Date.pdb
+C:\Users\Krystian Dębek\source\repos\SportProject\SportProject.Date\bin\Debug\netcoreapp3.1\SportProject.Date.runtimeconfig.json
+C:\Users\Krystian Dębek\source\repos\SportProject\SportProject.Date\bin\Debug\netcoreapp3.1\SportProject.Date.runtimeconfig.dev.json
+C:\Users\Krystian Dębek\source\repos\SportProject\SportProject.Date\obj\Debug\netcoreapp3.1\SportProject.Date.genruntimeconfig.cache

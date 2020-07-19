@@ -1,0 +1,70 @@
+﻿@page "{formId:int}"
+@model SportProject.Pages.Forms.DetailModel
+@{
+    ViewData["Title"] = "Detail";
+}
+
+<div class="col-md-10">
+    <div class="mx-auto" style=" max-width:60%; padding-top: 3%;">
+        <div class="text-center" style="padding-bottom: 3%;">
+            <h3>Podanie - szczególy</h3>
+        </div>
+
+        <form method="post">
+            <div style="display: inline;">
+                <input type="hidden" asp-for="Form.IdForm" />
+                <input type="hidden" asp-for="Form.IdStudent" />
+                <label for="">Data: </label>
+                <input asp-for="Form.Date" class="form-control" style="background-color: #eee;" readonly="readonly">
+                <br>
+            </div>
+            <div style="display: inline;">
+                <label for="">Nazwa: </label>
+                <input asp-for="Form.Name" class="form-control" readonly="readonly">
+                <br>
+            </div>
+
+            <div class="form-group">
+                <label>Opis :</label>
+                <textarea asp-for="Form.Description" class="form-control" rows="8"  readonly="readonly"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>Komentarz :</label>
+                <textarea asp-for="Form.Comment" class="form-control" rows="4"  placeholder=""></textarea>
+            </div>
+
+            <div class="float-right" style="padding-top: 3%;">
+
+                <button type="submit" class="btn btn-success"name="SubmitButton"  value="Accept">Zatwierdź</button>
+                <button type="submit" class="btn btn-danger" name="SubmitButton" value="Decline">Odrzuć</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script>
+    function DoAgreeSubmit() {
+         
+        @Model.flag = true;
+    }
+
+    function DoDisagreeSubmit() {
+        @Model.flag = false;
+    }
+</script>
+
+@*<div>
+    @Model.Form.Name
+</div>
+<div>
+    @Model.Form.Location
+</div>
+
+@if (Model.Message != null)
+{
+    <div class="alert-info">@Model.Message</div>
+}
+
+<a asp-page="./List" class="btn btn-outline-primary">All Forms</a>*@
+

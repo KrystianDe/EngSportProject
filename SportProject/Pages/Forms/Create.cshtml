@@ -1,0 +1,51 @@
+﻿@page 
+@model SportProject.Pages.Forms.CreateModel
+@{
+    ViewData["Title"] = "Create";
+}
+
+    <div class="col-md-9">
+        <div class="mx-auto" style="max-width: 500px; padding-top: 30px;">
+            <div class="text-center">
+                <h3>Podanie o zajęcia indywidualne</h3>
+                <p>Prosze o podanie : <br> <u>nazwy miejsca</u> odbywania zajeć WF oraz<br> <u> adresu siedziby</u> wraz z opisem odbywanych zajęć.</p>
+            </div>
+            <form method="post">
+                @*<input type="hidden" asp-for="Form.IdForm" value="1"/>*@
+                <input type="hidden" asp-for="Form.IdStudent" value="1"/>
+                <input type="hidden" asp-for="Form.Date" value="@Model.dateTime" />
+                <div class="form-group">
+                    <label>Nazwa :</label>
+                    <input asp-for="Form.Name" type="text" class="form-control" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label>Opis :</label>
+                    <textarea asp-for="Form.Description" class="form-control" rows="8" placeholder=""></textarea>
+                </div>
+                <div class="pull-right">
+                    <button type="submit" class="btn btn-success">Wyślij</button>
+                </div>
+            </form>
+        </div>
+    </div>
+@*<h1>Create</h1>
+
+<form method="post">
+    
+    <input type="hidden" asp-for="Form.Id" />
+
+    <div class="form-group">
+        <label asp-for="Form.Name"></label>
+        <input asp-for="Form.Name" class="form-control" />
+
+
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Form.Location"></label>
+        <textarea asp-for="Form.Location" class="form-control" rows="3"></textarea>
+
+    </div>
+    <button type="submit" class="btn btn-primary">Send</button>
+</form>*@
+

@@ -1,0 +1,11 @@
+C:\Users\Krystian Dębek\source\repos\SportProject\SportProject.Core\bin\Debug\netcoreapp3.1\SportProject.Core.deps.json
+C:\Users\Krystian Dębek\source\repos\SportProject\SportProject.Core\bin\Debug\netcoreapp3.1\SportProject.Core.dll
+C:\Users\Krystian Dębek\source\repos\SportProject\SportProject.Core\bin\Debug\netcoreapp3.1\SportProject.Core.pdb
+C:\Users\Krystian Dębek\source\repos\SportProject\SportProject.Core\obj\Debug\netcoreapp3.1\SportProject.Core.csprojAssemblyReference.cache
+C:\Users\Krystian Dębek\source\repos\SportProject\SportProject.Core\obj\Debug\netcoreapp3.1\SportProject.Core.AssemblyInfoInputs.cache
+C:\Users\Krystian Dębek\source\repos\SportProject\SportProject.Core\obj\Debug\netcoreapp3.1\SportProject.Core.AssemblyInfo.cs
+C:\Users\Krystian Dębek\source\repos\SportProject\SportProject.Core\obj\Debug\netcoreapp3.1\SportProject.Core.dll
+C:\Users\Krystian Dębek\source\repos\SportProject\SportProject.Core\obj\Debug\netcoreapp3.1\SportProject.Core.pdb
+C:\Users\Krystian Dębek\source\repos\SportProject\SportProject.Core\bin\Debug\netcoreapp3.1\SportProject.Core.runtimeconfig.json
+C:\Users\Krystian Dębek\source\repos\SportProject\SportProject.Core\bin\Debug\netcoreapp3.1\SportProject.Core.runtimeconfig.dev.json
+C:\Users\Krystian Dębek\source\repos\SportProject\SportProject.Core\obj\Debug\netcoreapp3.1\SportProject.Core.genruntimeconfig.cache

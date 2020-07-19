@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    @*<title>@ViewData["Title"] - WF_project</title>*@
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    @*<link rel="stylesheet" href="~/css/site.css" />*@
+<environment names="Development">
+    
+    <link rel="stylesheet" href="~/css/dodatki.css" />
+</environment>
+</head>
+
+<body>
+   
+   <br/>
+
+    <div class="container">
+        <div class="row border-bottom">
+            <div class="col-md-2">
+                <img id="logo" src="~/css/logo.png" width="90%" height="90%" />
+            </div>
+            <div class="col-md-10 text-center">
+                <h1>Polsko-Japońska Akademia Technik Komputerowych</h1>
+            </div>
+        </div>
+    </div>
+    <!--SIDEBAR Z LISTA-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2 border-right nopadding">
+                <div class="container-fluid nopadding">
+                    <ul class="list-group list-striped">
+
+                        <li class="list-group-item text-center"><a asp-area="" asp-page="/Forms/Create">Wyślij fomularz</a></li>
+
+                        <li class="list-group-item text-center"><a asp-area="" asp-page="/Forms/List">Lista zgłoszeń </a></li>
+
+
+                    </ul>
+                </div>
+            </div>
+
+
+            @RenderBody()
+        </div>
+    </div>
+    
+    @*</main>
+        </div>*@
+   
+    @*<footer class="border-top footer text-muted">
+            <div class="container">
+                &copy; 2020 - WF_project - <a asp-area="" asp-page="/Privacy">Privacy</a>
+            </div>
+        </footer>*@
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
